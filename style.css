@@ -1,0 +1,46 @@
+.top-text {
+  font-size: 5em;
+}
+
+.second-text {
+  font-size: 2em;
+  max-width: 21em;
+}
+
+.card-button {
+  width: 14em;
+  height: 5em;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+input {
+  width: 100%;
+}
+
+.expiration-date-info .security-date-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-method-row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.security-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5%;
+  margin-top: 2%;
+}
+
+p {
+  margin-bottom: 1%;
+}
