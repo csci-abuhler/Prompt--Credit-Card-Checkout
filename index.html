@@ -22,7 +22,7 @@
 
       <div class="card-info">
         <p class="card-number-text">Card number</p>
-        <input class="card-number" placeholder="1111 2222 3333 4444"></input>
+        <input class="card-number-input" placeholder="1111 2222 3333 4444"></input>
 
 
         <p class="cardholder-name-text">Cardholder's name</p>
@@ -30,15 +30,23 @@
 
         <div class="security-info">
           <div class="expiration-date-info">
-          <p class="expiration-date">Expiration date</p>
-          <input placeholder="MM/YY"></input>
-        </div>
+            <p class="expiration-date">Expiration date</p>
+            <input placeholder="MM/YY" class="expiration-date-input"></input>
+          </div>
 
-        <div class="security-number-info">
-          <p class="security-number">CVV</p>
-          <input placeholder="123"></input>
+          <div class="security-number-info">
+            <p class="security-number-text">CVV</p>
+            <input class="security-number-input" placeholder="123"></input>
+          </div>
         </div>
-        </div>
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" class="check-for-info"></input>
+        <p class="checkbox-text">Check here to save info.</p>
+      </div>
+      <div class="submit-container">
+        <button class="submit">Checkout</button>
       </div>
     </div>
   </body>

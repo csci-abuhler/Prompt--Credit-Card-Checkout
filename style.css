@@ -7,6 +7,22 @@
   max-width: 21em;
 }
 
+.card-number-input {
+  width: 99%;
+}
+
+.cardholder-name-input {
+  width: 99%;
+}
+
+.expiration-date-input {
+  width: 100%;
+}
+
+.security-number-input {
+  width: 98%;
+}
+
 .card-button {
   width: 14em;
   height: 5em;
@@ -15,13 +31,14 @@
 .outer-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-content: center;
   justify-content: center;
 }
 
-input {
-  width: 100%;
+.submit-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .expiration-date-info .security-date-info {
@@ -39,9 +56,19 @@ input {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 5%;
-  margin-top: 2%;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
 }
 
 p {
   margin-bottom: 1%;
+}
+
+.submit {
+  width: 25em;
+  height: 6em;
 }
