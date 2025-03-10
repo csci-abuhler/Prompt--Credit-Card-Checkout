@@ -26,6 +26,7 @@
 .card-button {
   width: 14em;
   height: 5em;
+  background-color: rgb(240, 236, 235);
 }
 
 .outer-container {
@@ -71,4 +72,5 @@ p {
 .submit {
   width: 25em;
   height: 6em;
+  font-size: 100%;
 }
